@@ -657,7 +657,6 @@ fn main() {
         .default_macro_constant_type(bindgen::MacroTypeVariation::Signed)
         .generate_comments(true)
         .fit_macro_constants(false)
-        .size_t_is_usize(false)
         .layout_tests(true)
         .prepend_enum_name(true)
         .clang_args(get_extra_clang_args_for_bindgen(&config))
